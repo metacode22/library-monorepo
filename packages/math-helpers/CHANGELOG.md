@@ -1,5 +1,11 @@
 # metamong-math-helpers
 
+## 1.0.4
+
+### Patch Changes
+
+- fix entry point
+
 ## 1.0.3
 
 ### Patch Changes
