@@ -1,0 +1,23 @@
+{
+  "name": "metamong-math-helpers",
+  "version": "1.0.3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "",
+  "main": "./src/index.js",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "pnpm run build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
