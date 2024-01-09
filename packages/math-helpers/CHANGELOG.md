@@ -1,5 +1,17 @@
 # metamong-math-helpers
 
+## 1.0.6
+
+### Patch Changes
+
+- remove .gitignore
+
+## 1.0.5
+
+### Patch Changes
+
+- fix turbo.json
+
 ## 1.0.4
 
 ### Patch Changes
