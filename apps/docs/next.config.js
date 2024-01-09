@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  transpilePackages: ["@repo/ui"],
-};
+const nextConfig = {
+  reactStrictMode: true,
+}
+
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.tsx',
+  flexsearch: false
+})
+
+module.exports = withNextra(nextConfig)
