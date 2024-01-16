@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts"
+    "dev": "vitest",
+    "test": "vitest run",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci": "pnpm run lint && pnpm run test && pnpm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tsup": "^8.0.1"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.0"
   }
 }
