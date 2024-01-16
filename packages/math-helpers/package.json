@@ -1,6 +1,6 @@
 {
   "name": "metamong-math-helpers",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "publishConfig": {
     "access": "public"
   },
@@ -10,7 +10,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup",
     "dev": "pnpm run build --watch"
   },
   "keywords": [],

@@ -1,5 +1,17 @@
 # metamong-math-helpers
 
+## 1.0.8
+
+### Patch Changes
+
+- fix .gitignore and .npmignore
+
+## 1.0.7
+
+### Patch Changes
+
+- change export method
+
 ## 1.0.6
 
 ### Patch Changes
