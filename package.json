@@ -21,5 +21,10 @@
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "flexsearch": "0.7.31"
+    }
   }
 }
