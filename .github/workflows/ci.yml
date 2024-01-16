@@ -17,9 +17,9 @@ jobs:
         with:
           fetch-depth: 2
 
-      - uses: pnpm/action-setup@v2.0.1 # install pnpm package manager
+      - uses: pnpm/action-setup@v2 # install pnpm package manager
         with:
-          version: 6.32.2
+          version: 7
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
