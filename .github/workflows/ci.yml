@@ -19,7 +19,7 @@ jobs:
 
       - uses: pnpm/action-setup@v2 # install pnpm package manager
         with:
-          version: 7
+          version: 8
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
