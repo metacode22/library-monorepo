@@ -1,5 +1,11 @@
 # @metamong/zod-message-bus
 
+## 0.0.5
+
+### Patch Changes
+
+- change name
+
 ## 0.0.4
 
 ### Patch Changes
