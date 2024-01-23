@@ -1,10 +1,6 @@
 {
   "name": "metamong-zod-message-bus",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
