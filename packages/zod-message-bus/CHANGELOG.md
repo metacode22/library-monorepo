@@ -1,5 +1,11 @@
 # @metamong/zod-message-bus
 
+## 0.0.7
+
+### Patch Changes
+
+- private 추가
+
 ## 0.0.6
 
 ### Patch Changes
