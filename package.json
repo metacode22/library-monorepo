@@ -1,6 +1,6 @@
 {
   "name": "library-monorepo",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo build",
     "test": "turbo test",
