@@ -1,5 +1,11 @@
 # @metamong/zod-message-bus
 
+## 0.0.9
+
+### Patch Changes
+
+- add .npmignore
+
 ## 0.0.8
 
 ### Patch Changes
