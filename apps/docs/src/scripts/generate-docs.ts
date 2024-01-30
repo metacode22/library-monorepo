@@ -76,9 +76,15 @@ type NestedObject<T> = {
         }
       });
 
-      const destination = path.join(DOCS_PAGES_PATH, currentPath, "_meta.json");
-      fse.ensureDirSync(path.dirname(destination));
-      fse.writeJsonSync(destination, json);
+      if (Object.keys(json).length > 0) {
+        const destination = path.join(
+          DOCS_PAGES_PATH,
+          currentPath,
+          "_meta.json"
+        );
+        fse.ensureFileSync(destination);
+        fse.writeJsonSync(destination, json);
+      }
     }
 
     dfs(meta);
