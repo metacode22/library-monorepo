@@ -1,5 +1,16 @@
 # @metamong/zod-message-bus
 
+## 0.1.0
+
+### Minor Changes
+
+- feat: generate docs script에서 meta.json 작성까지 완료
+- feat: generate docs script 작성
+
+### Patch Changes
+
+- chore: version 명령어 추가
+
 ## 0.0.9
 
 ### Patch Changes
